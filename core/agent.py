@@ -38,7 +38,8 @@ def get_agent() -> AgentExecutor:
         agent=agent,
         tools=tools,
         verbose=True,
-        max_iterations=8,
+        max_iterations=15,
+        max_execution_time=120,
         handle_parsing_errors=True,
         return_intermediate_steps=True,
     )

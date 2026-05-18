@@ -5,7 +5,8 @@ from langchain.memory import ConversationSummaryMemory
 from langchain_community.chat_message_histories import SQLChatMessageHistory
 from core.llm import get_llm
 from config import SQLITE_DB_PATH
-
+import os
+os.makedirs(os.path.dirname(SQLITE_DB_PATH), exist_ok=True)
 
 def get_memory(session_id: str = "default") -> ConversationSummaryMemory:
     """

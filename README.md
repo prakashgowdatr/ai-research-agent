@@ -3,11 +3,11 @@
 An intelligent research agent that searches the web, summarizes findings, and generates structured reports — powered by Groq, LangChain, and Tavily.
 
 ## Features
-- 🔍 Smart web search with Tavily + DuckDuckGo fallback
-- 🧠 ReAct agent loop with reasoning steps
-- 📝 Structured markdown report generation
-- 💬 Casual chat mode — only researches when needed
-- 🗄️ Persistent conversation memory via SQLite
+- Smart web search with Tavily + DuckDuckGo fallback
+- ReAct agent loop with reasoning steps
+- Structured markdown report generation
+- Casual chat mode — only researches when needed
+- Persistent conversation memory via SQLite
 
 ## Tech Stack
 - **LLM**: Groq (Llama 3.1 8B)
